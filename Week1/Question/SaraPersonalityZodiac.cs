@@ -109,5 +109,6 @@ class SaraPersonalityZodiac
 			    partner = "Aquarius"
 			    break;
 	    }
+		     Console.WriteLine("Your Partner is "+partner);
 
        }}}
