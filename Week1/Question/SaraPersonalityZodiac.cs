@@ -38,35 +38,27 @@ class SaraPersonalityZodiac
             }
             else if ((monthOfBirth == 7)
             {
-                zodiacSign = "Leo";
+                zodiacSign = "Leo" ;
             }
-            else if (monthOfBirth)
+            else if (monthOfBirth == 8)
             {
                 zodiacSign = "Virgo";
             }
-            else if (monthOfBirth)
+            else if (monthOfBirth == 9)
             {
                 zodiacSign = "Libra";
             }
-            else if (monthOfBirth )
+            else if (monthOfBirth == 10)
             {
                 zodiacSign = "Scorpio";
             }
-            else if (monthOfBirth )
+            else if (monthOfBirth == 11)
             {
                 zodiacSign = "Sagittarius";
             }
-            else if (monthOfBirth )
+            else if (monthOfBirth == 12)
             {
                 zodiacSign = "Capricorn";
-            }
-            else if (monthOfBirth )
-            {
-                zodiacSign = "Aquarius";
-            }
-            else if (monthOfBirth )
-            {
-                zodiacSign = "Pisces";
             }
 
 	    string partner = "";
@@ -90,6 +82,9 @@ class SaraPersonalityZodiac
 		    case "Virgo":
 			    partner = "Libra"
 				    break;
+		    case "Aires":
+		    	   partner = "Aquarius";
+		           break;
 		    case "Leo":
 			    partner = "Cancer";
 			    break;
