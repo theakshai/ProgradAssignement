@@ -1,0 +1,15 @@
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\bin\Debug\net7.0\NumberPlate.exe
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\bin\Debug\net7.0\NumberPlate.deps.json
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\bin\Debug\net7.0\NumberPlate.runtimeconfig.json
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\bin\Debug\net7.0\NumberPlate.dll
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\bin\Debug\net7.0\NumberPlate.pdb
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\NumberPlate.csproj.AssemblyReference.cache
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\NumberPlate.GeneratedMSBuildEditorConfig.editorconfig
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\NumberPlate.AssemblyInfoInputs.cache
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\NumberPlate.AssemblyInfo.cs
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\NumberPlate.csproj.CoreCompileInputs.cache
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\NumberPlate.dll
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\refint\NumberPlate.dll
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\NumberPlate.pdb
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\NumberPlate.genruntimeconfig.cache
+C:\tools\cygwin\home\Dell\Assesment2\NumberPlate\obj\Debug\net7.0\ref\NumberPlate.dll

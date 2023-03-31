@@ -1,0 +1,15 @@
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\bin\Debug\net7.0\LicenseTime.exe
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\bin\Debug\net7.0\LicenseTime.deps.json
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\bin\Debug\net7.0\LicenseTime.runtimeconfig.json
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\bin\Debug\net7.0\LicenseTime.dll
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\bin\Debug\net7.0\LicenseTime.pdb
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\LicenseTime.csproj.AssemblyReference.cache
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\LicenseTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\LicenseTime.AssemblyInfoInputs.cache
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\LicenseTime.AssemblyInfo.cs
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\LicenseTime.csproj.CoreCompileInputs.cache
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\LicenseTime.dll
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\refint\LicenseTime.dll
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\LicenseTime.pdb
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\LicenseTime.genruntimeconfig.cache
+C:\tools\cygwin\home\Dell\Assesment2\LicenseTime\obj\Debug\net7.0\ref\LicenseTime.dll

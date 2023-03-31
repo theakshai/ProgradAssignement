@@ -1,0 +1,37 @@
+using System;
+
+class LicenseProgram
+{
+    static void Main(string[] args)
+    {
+        string myName = "Eric";
+        int numAgents = 2;
+        string otherNames = "Adam Caroline Rebecca Frank";
+        int minutes = License(myName, numAgents, otherNames);
+        Console.WriteLine(minutes);
+    }
+
+    static int License(string me, int numAgents, string others)
+    {
+        // Split the other names string into individual names
+        string[] names = others.Split(' ');
+
+        // Add my name to the end of the array
+        string[] allNames = new string[names.Length + 1];
+        Array.Copy(names, allNames, names.Length);
+        allNames[allNames.Length - 1] = me;
+
+        // Sort the array of names
+        Array.Sort(allNames);
+
+        // Determine the position of my name in the sorted array
+        int myIndex = Array.IndexOf(allNames, me);
+
+        // Calculate the time it will take for me to get my license
+        int numCustomersAhead = myIndex;
+        int numAgentsWorking = Math.Min(numAgents, numCustomersAhead);
+        int minutes = numCustomersAhead * 20 / numAgentsWorking;
+
+        return minutes;
+    }
+}
