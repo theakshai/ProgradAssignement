@@ -1,4 +1,4 @@
-obj/
+obj
 *sln
 *csproj
-bin/
+bin

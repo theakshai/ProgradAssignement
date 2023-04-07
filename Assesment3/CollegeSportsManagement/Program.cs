@@ -4,7 +4,7 @@ namespace CollegeSportsManagement;
     class Program
     {
 
-        private static readonly string connectionString = "Server=DESKTOP-RC6VO7O;Database=College_Sports_Management;Encrypting=true;Integrated Security=True";
+        private static readonly string connectionString = "Server=DESKTOP-RC6VO7O;Initial Catalog=College_Sports_Management;Encrypt=False;Integrated Security=True";
 
         static void Main(string[] args)
         {
