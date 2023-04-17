@@ -40,6 +40,27 @@ namespace TextEditor.Controllers
             return docs;
         }
         // GET: DocumentController
+
+        public Document GetDocumentById(int id)
+        {
+            SqlCommand command = new($"select * from Document_Info where id = {id}", _connection);
+            _connection.Open();
+            SqlDataReader reader = command.ExecuteReader();
+            Document document = new();
+
+            while (reader.Read())
+            {
+                    document.Id = (int)reader["id"];
+                    document.UserId = (int)reader["UserId"];
+                    document.Title = (string)reader["Title"];
+                document.Content = (string)reader["Content"];
+
+            }
+            reader.Close();
+            _connection.Close();
+            return document;
+            
+        }
         public ActionResult Index()
         {
             return View(GetDocuments());
@@ -48,9 +69,17 @@ namespace TextEditor.Controllers
         // GET: DocumentController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            return View(GetDocumentById(id));
         }
 
+        public void InsertDocument(Document document)
+        {
+            _connection.Open();
+            SqlCommand command = new("insert into Document_Info values @document.UserId, @document.Title, @document.Content", _connection);
+            command.ExecuteNonQuery();
+            _connection.Close();
+
+        }
         // GET: DocumentController/Create
         public ActionResult Create()
         {
@@ -96,16 +125,21 @@ namespace TextEditor.Controllers
         // GET: DocumentController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            return View(GetDocumentById(id));
         }
 
         // POST: DocumentController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id,Document document)
         {
             try
             {
+                _connection.Open();
+                SqlCommand command = new($"delete from Document_Info where id = {id}", _connection);
+                command.Parameters.AddWithValue("@id", id);
+                command.ExecuteNonQuery();
+                _connection.Close();
                 return RedirectToAction(nameof(Index));
             }
             catch
