@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+using System.Data;
+using TextEditor.Data;
+using TextEditor.Models;
 namespace TextEditor
 {
     public class Program
@@ -8,6 +13,12 @@ namespace TextEditor
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<DocumentContext>(options =>
+            options.UseSqlServer(
+                builder.Configuration.GetConnectionString("Text_Editor")
+                )
+);
 
             var app = builder.Build();
 
